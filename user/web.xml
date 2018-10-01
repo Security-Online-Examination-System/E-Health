@@ -1,0 +1,25 @@
+<web-app>
+ 
+<servlet>
+  <servlet-name>UserReg</servlet-name>
+  <servlet-class>UserReg</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>UserReg</servlet-name>
+    <url-pattern>/UserReg</url-pattern>
+  </servlet-mapping>
+ 
+ 
+ <servlet>
+  <servlet-name>userpage</servlet-name>
+  <servlet-class>UserLogin</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>userpage</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+ 
+ 
+ </web-app>

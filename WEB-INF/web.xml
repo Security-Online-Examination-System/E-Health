@@ -1,0 +1,204 @@
+<web-app>
+<welcome-file></welcome-file>
+
+
+<welcome-file-list>
+    <welcome-file>/index.html</welcome-file>
+    
+  </welcome-file-list>
+
+
+
+   <servlet>
+  <servlet-name>adminpage</servlet-name>
+  <servlet-class>AdminLogin</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>adminpage</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+ 
+
+
+ <servlet>
+  <servlet-name>disease</servlet-name>
+  <servlet-class>Adddisease</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>disease</servlet-name>
+    <url-pattern>/Adddisease</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+  <servlet-name>update</servlet-name>
+  <servlet-class>UpdateDisease1</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/UpdateDisease1</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+  <servlet-name>delete</servlet-name>
+  <servlet-class>DeleteDisease</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/DeleteDisease</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+  <servlet-name>add</servlet-name>
+  <servlet-class>AddMedicine</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>add</servlet-name>
+    <url-pattern>/AddMedicine</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+  <servlet>
+  <servlet-name>updatemed</servlet-name>
+  <servlet-class>Updatemedicine</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>updatemed</servlet-name>
+    <url-pattern>/Updatemedicine</url-pattern>
+  </servlet-mapping>
+ 
+
+
+
+
+
+
+ <servlet>
+  <servlet-name>delet</servlet-name>
+  <servlet-class>DeleteMedicine</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>delet</servlet-name>
+    <url-pattern>/DeleteMedicine</url-pattern>
+  </servlet-mapping>
+
+
+<servlet>
+  <servlet-name>reg</servlet-name>
+  <servlet-class>UserReg</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>reg</servlet-name>
+    <url-pattern>/UserReg</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+  <servlet>
+  <servlet-name>log</servlet-name>
+  <servlet-class>UserLogin</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>log</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>ChangePassword</servlet-name>
+  <servlet-class>ChangePassword</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>ChangePassword</servlet-name>
+    <url-pattern>/ChangePassword</url-pattern>
+  </servlet-mapping>
+
+
+ 
+
+ <servlet>
+  <servlet-name>logout</servlet-name>
+  <servlet-class>LogoutSrv</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/LogoutSrv</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+<servlet>
+  <servlet-name>addsymp</servlet-name>
+  <servlet-class>AddSymptoms</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>addsymp</servlet-name>
+    <url-pattern>/AddSymptoms</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+<servlet>
+  <servlet-name>upsymp</servlet-name>
+  <servlet-class>UpdateSymptom</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>upsymp</servlet-name>
+    <url-pattern>/UpdateSymptom</url-pattern>
+  </servlet-mapping>
+
+
+
+
+  <servlet>
+  <servlet-name>delsymp</servlet-name>
+  <servlet-class>DeleteSymptoms</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+    <servlet-name>delsymp</servlet-name>
+    <url-pattern>/DeleteSymptoms</url-pattern>
+  </servlet-mapping>
+
+
+
+
+ </web-app>
+
+
+
+
+
+
+
+

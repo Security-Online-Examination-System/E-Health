@@ -1,0 +1,11 @@
+create table admin(uname varchar2(20),pwd varchar2(15));
+
+create table disease(did number(3),dname varchar2(30));
+
+create table medicine(did number(3) references disease(did),Symptom varchar2(20),mname varchar2(20),med_desc varchar2(100));
+
+create table user_info(user_id number(20),fname varchar2(20),lname varchar2(20),age number(3),gender varchar2(10),address varchar2(50),uname varchar2(15),pwd varchar2(15));
+ 
+
+
+
